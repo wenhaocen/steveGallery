@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
+    	<!-- <meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three"> -->
+
+		<title>The Dot Burger</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/home.css">
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="javascript/home.js">
+		</script>
+		<script src="carousel/js/jssor.slider.js">
+		</script>
+		<script src="carousel/js/jssor.js">
+		</script>
+		<script>
+    		jQuery(document).ready(function ($) {
+        		var options = { 
+        			$AutoPlay: true,
+        			$AutoPlayInterval : 6000,
+        			$SlideDuration : 1000
+        		};
+        		var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+    		});
+		</script>
+	</head>
+	
+	<body>
+ 
+		<section id="container">
+			<header>
+				<h1 id="main-title">The <ins>Dot</ins> Burger</h1>
+				<h2 id="tagline">Always fresh. Always Hot.</h2>
+			</header>
+		</section>
+		<section class="nav-section">
+				<nav>
+					<ul>
+						<li><a href="menu.html" id="menu-link">Menu</a></li>
+						<li><a href="contact.html" id="contact-link">Contact</a></li>
+						
+					</ul>
+				</nav>
+		</section>
+			
+ 		<section class="blurb-section">
+			<p id="welcome-quote">
+				Welcome to The Dot Burger, where your burger experience will be mind-blowing.
+			</p>
+			<p>
+				We use local baked fresh brioche bun and only the best certified Angus beef for our gourmet patties. Chef Valario's secret seasoning #12 is unforgettable on your palate.
+			</p>
+
+		</section>
+		<div id="links">
+			
+		</div>
+
+		<div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 700px; height: 320px;">
+				    <!-- Slides Container -->
+				    <div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 700px; height: 320px;">
+				        <div>
+				        	<div u="image">
+				        		<div class="img-container">
+				        			<img id="bearpic" src="img/honeybear.jpg"
+				        			/>
+				        		</div>
+				        		<div class="img-container">
+				        			<img src="img/cat1.jpg" />
+				        		</div>
+				        		<div class="img-container">
+				        			<img src="img/cheesyfries.jpg" />
+				        		</div>
+				        	</div>
+				    	</div>
+				    </div>
+		</div>
+		
+
+		<footer>
+			&copy; The Dot Burger
+		</footer>
+		</container>
+		</div><!-- #container -->
+	</body>
+</html>

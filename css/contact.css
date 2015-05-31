@@ -1,0 +1,125 @@
+
+h1{
+	background-color: #E9EEEA;
+  border-bottom:solid #958264;
+	padding:1em;
+	float:center;
+	color:#B85223;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size:2em;
+  margin:0px;
+
+
+}
+
+body{
+  margin:0;
+}
+
+#contact{
+  margin-left:20%;
+}
+
+a{
+	color:white;
+	padding:1.5em;
+	background-color:none;
+	text-decoration:none;
+}
+
+li{
+	display:inline-block;
+
+}
+
+#burger-pic{
+  position:relative;
+  left:50%;
+  top:20%;
+  height: 20px;
+  width:auto;
+}
+
+
+#contact-title{
+	width:cover;
+  
+}
+
+.nav-section{
+	padding:.5em;
+	background-color:rgba(0,0,0,.4);
+	color:white;
+}
+
+
+#contact input,#contact textarea,#contact button{
+  border: 1px solid #B85223 ;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 12px;
+  outline: 0;
+  -webkit-appearance: none;
+  height:20px;
+  width:80px;
+  clear:both;
+  display:block;
+}
+
+#contact input.invalid, #contact textarea.invalid, #contact button.invalid {
+  background: rgba(255,0,0,0.3);
+}
+
+#contact input{
+
+  width:36%;
+  margin-bottom:15px;
+}
+
+#contact textarea{
+
+  width:60%;
+  height:250px;
+
+}
+
+#contact button{
+
+  background:#E8E8E8 ;
+  border:solid #B85223;
+  color:#ABABAB;
+  margin-top:20px;
+  padding-bottom:28px;
+  margin-left:53%;
+}
+
+#contact button:hover{
+
+  background: #E8E8E8;
+  color:#020202;
+  cursor:pointer;
+
+
+}
+
+.heading {
+  display:inline-block;
+}
+
+
+
+/*#contact .center{
+  text-align:center;
+  padding-top:200px;
+  font-size:84px;
+  color: green;
+  font-weight: 100;
+}*/
+
+footer{
+	color:#E8E8E8;
+  margin-top:30px;
+}

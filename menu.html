@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
+    	<!-- <meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three"> -->
+
+		<title>Menu</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/menu.css">
+
+	</head>
+	<body>
+		<section id="container">
+			<header>
+				<h1 id="menu-title">Menu</h1>
+			</header>
+		</section>
+
+	<section class="nav-section">
+		<nav>
+			<ul>
+				<li><a href="home.html" id="home-link">
+				Home</a></li>
+				<li><a href="contact.html" id="contact-link">Contact Us</a></li>
+			</ul>
+		</nav>
+	</section>
+			
+
+
+		<section class="order-form">
+			
+			<div id="menu-items">
+				
+				<div class="heading">
+					<ul>
+						<li id="quantity">Quantity</li>
+						<li id="price">Price</li>
+					</ul>
+				</div>
+				
+				<div class="menu-item">Burger<div class="price"><span>$</span><span id="price-0">8.00</span></div><div class="qty"><select id="qty-0"><option value="0" selected>0</option><option value="1">1</option><option value="2">2</option><option value="3+">3+</option></select></div></div>
+
+				<div class="menu-item">Cheeseburger<div class="price"><span>$</span><span id="price-1">8.99</span></div><div class="qty"><select id="qty-1"><option value="0" selected>0</option><option value="1">1</option><option value="2">2</option><option value="3+">3+</option></select></div></div>
+				
+				<div class="menu-item">Fries<div class="price"><span>$</span><span id="price-2">4.50</span></div><div class="qty"><select id="qty-2"><option value="0" selected>0</option><option value="1">1</option><option value="2">2</option><option value="3+">3+</option></select></div>
+			</div>
+				<ul class="total-cost">
+					<li id="subtotal">Subtotal</li>
+					<li><span>$</span><span id="total-cost">0</span></li>
+				</ul>
+			<button id="checkout-button" name="checkout" type="submit" tabindex="3">Checkout</button>
+
+			</div><!-- #container -->
+			<div id="gallery">
+				<ul>
+					<li id="img1"></li>
+					<li id="img2"></li>
+					<li id="img3"></li>
+				</ul>
+		</section>
+		<footer>
+			&copy; The Dot Burger
+		 </footer>
+		<script src="javascript/menu.js"></script>
+	</body>
+</html>
