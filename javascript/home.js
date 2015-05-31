@@ -24,8 +24,8 @@ function addGalleryEvents(){
 		{
 			"width" : "260px",
 			"height" : "260px",
-			"top" : "-25px",
-			"left" : "-25px"
+			"top" : "-20px",
+			"left" : "-20px"
 		},
         {
             "duration" : "300",
