@@ -94,7 +94,14 @@ li{
 	display: inline-block;
 	width: 220px;
 	height: 220px;
+    float : left;
+    margin-top : 20px;
 }
+
+#slider1_container .img-container:first-child{
+    margin-left : 25px;
+}
+
 .img-container img{
 	position: absolute;
 	width: 220px;
